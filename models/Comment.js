@@ -18,12 +18,12 @@ Comment.init(
         },
 
         user_id: {
-            type: DataTypes.STRING,
+            type: DataTypes.INTEGER,
             allowNull: false,
         },
 
         post_id: {
-            type: DataTypes.DATE,
+            type: DataTypes.INTEGER,
             allowNull: false,
             defaultValue: DataTypes.NOW,
         },

@@ -28,7 +28,7 @@ User.init(
             }
         },
         password: {
-            type: DataTypes.DATE,
+            type: DataTypes.STRING,
             allowNull: false,
             defaultValue: DataTypes.NOW, validate: {
                 len: [4]

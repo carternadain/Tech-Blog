@@ -16,8 +16,6 @@ Post.belongsTo(User, {
 
 Comment.belongsTo(User, {
     foreignKey: 'user_id',
-    onDelete: 'cascade',
-    hooks:true
 });
 
 
